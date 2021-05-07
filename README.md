@@ -1,2 +1,2 @@
 # simple-twitch-bot
-Um bot qualquer em Python3.
+A really simple bot written in python that listens to a twitch.tv channel.

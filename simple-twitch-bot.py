@@ -2,7 +2,7 @@ import socket
 import time
 
 CHANNEL = "GMHikaru"  # Canal que o bot vai escutar
-NICK = "mtldr"  # Usuário da twitch
+NICK = "Matuniverso"  # Usuário da twitch
 OAUTH = "*********"  # https://twitchapps.com/tmi
 
 print(f"-> Conectando ao chat da twitch ({CHANNEL}).")

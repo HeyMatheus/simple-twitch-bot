@@ -1,8 +1,8 @@
 import socket
 import time
 
-CHANNEL = "GMHikaru"  # Canal que o bot vai escutar
-NICK = "Matuniverso"  # Usuário da twitch
+CHANNEL = "SOME CHANNEL NAME"  # Canal que o bot vai escutar
+NICK = "matheus_php"  # Usuário da twitch
 OAUTH = "*********"  # https://twitchapps.com/tmi
 
 print(f"-> Conectando ao chat da twitch ({CHANNEL}).")

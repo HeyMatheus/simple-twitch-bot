@@ -1,15 +1,15 @@
 import socket
 import time
 
-CHANNEL = "SOME CHANNEL NAME"  # Canal que o bot vai escutar
-NICK = "matheus_php"  # Usuário da twitch
+CHANNEL = "SOME CHANNEL NAME"  # Channel name
+NICK = "TheuzinXYZ"  # Twitch User
 OAUTH = "*********"  # https://twitchapps.com/tmi
 
 print(f"-> Conectando ao chat da twitch ({CHANNEL}).")
 sock = socket.socket()
 time.sleep(1)
 try:
-    print("-> Conectado :D")
+    print("-> Connected :D")
     sock.connect(("irc.chat.twitch.tv", 6667))
     sock.send(bytes("PASS " + OAUTH + "\r\n", "UTF-8"))
     sock.send(bytes("NICK " + NICK + "\r\n", "UTF-8"))
@@ -24,4 +24,4 @@ try:
 except KeyboardInterrupt:
     pass
 except:
-    print("-> Deu ruim D:")
+    print("-> Went Wrong D:")

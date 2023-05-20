@@ -2,7 +2,7 @@ import socket
 import time
 
 CHANNEL = "SOME CHANNEL NAME"  # Channel name
-NICK = "TheuzinXYZ"  # Twitch User
+NICK = "theuzindev"  # Twitch User
 OAUTH = "*********"  # https://twitchapps.com/tmi
 
 print(f"-> Conectando ao chat da twitch ({CHANNEL}).")
